@@ -4,7 +4,6 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,8 +15,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  
+  /* color: rgb(var(--foreground-rgb)); */
 }
 
 @layer utilities {
