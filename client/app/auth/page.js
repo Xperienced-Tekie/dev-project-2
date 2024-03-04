@@ -3,7 +3,7 @@ import React from 'react';
 const Auth = () => {
   return (
     <div className="flex justify-center w-full h-screen items-center">
-      <div className="w-[30rem] h-[35rem] border-2 border-blue-900 relative rounded-md">
+      <div className="w-full md:w-[30rem] h-[35rem] border-2 border-blue-900 relative rounded-md">
         <div className="w-[5rem] h-[5rem] bg-blue-900 rounded-br-full">
           <div className="w-[10rem] h-[8rem] bg-yellow-300 absolute bottom-0 right-0 rounded-tl-full" />
         </div>
@@ -21,7 +21,7 @@ const Auth = () => {
             Sign Up with Facebook
           </button>
         </div>
-        <hr className="border-blue-900 w-3/5 ml-28 my-3" />
+        <hr className="border-blue-900 w-3/5 md:w-3/5 ml-28 md:ml-28 my-3" />
         <div className="text-center mt-4">
           <form>
             <label htmlFor="email" className="block text-black-500 font-bold">
@@ -31,7 +31,7 @@ const Auth = () => {
               type="email"
               id="email"
               name="email"
-              className="border-2 border-blue-900 rounded-md py-2 px-4 mt-1 w-72 focus:outline-none"
+              className="border-2 border-blue-900 rounded-md py-2 px-4 mt-1 w-full md:w-72 focus:outline-none"
               required
             />
             <label
@@ -44,20 +44,19 @@ const Auth = () => {
               type="password"
               id="passkey"
               name="passkey"
-              className="border-2 border-blue-900 rounded-md py-2 px-4 mt-1 w-72 focus:outline-none"
+              className="border-2 border-blue-900 rounded-md py-2 px-4 mt-1 w-full md:w-72 focus:outline-none"
               required
             />
-            <br />
-            <div class="absolute bottom-16 left-4 z-20 w-full text-center">
-              <button class="bg-blue-950 hover:bg-blue-500 text-white font-bold py-2.5 px-12 rounded w-64">
+            <div className="absolute bottom-16 left-4 z-20 w-full text-center mr-12">
+              <button className="bg-blue-950 hover:bg-blue-500 text-white font-bold py-2.5 px-12 rounded w-full md:w-72">
                 Sign Up
               </button>
             </div>
           </form>
-          <div class="absolute bottom-4 left-4 z-20 w-full text-center">
-            <p class="text-[10px] mt-5">
+          <div className="absolute bottom-4 left-4 z-20 w-full text-center">
+            <p className="text-xs md:text-[10px] mt-5">
               By signing up you agree with <br />
-              our <span class="text-blue-500">terms and conditions</span>
+              our <span className="text-blue-500">terms and conditions</span>
             </p>
           </div>
         </div>
