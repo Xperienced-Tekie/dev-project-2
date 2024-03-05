@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Auth = () => {
   return (
@@ -14,10 +15,12 @@ const Auth = () => {
           </p>
         </div>
         <div className="flex flex-col items-center pt-8">
-          <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded relative">
+            <Image src="/images/google.png" alt="Google" width={24} height={20} className="absolute left-3 top-1/2 transform -translate-y-1/2" />
             Sign Up With Google
           </button>
-          <button className="bg-slate-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2">
+          <button className="bg-slate-300 hover:bg-blue-700 text-black font-bold py-2 px-10 rounded mt-2 relative">
+            <Image src="/images/facebook.png" alt="Facebook" width={30} height={20} className="absolute left-2 top-1/2 transform -translate-y-1/2" />
             Sign Up with Facebook
           </button>
         </div>
@@ -56,7 +59,10 @@ const Auth = () => {
           <div className="absolute bottom-4 left-4 z-20 w-full text-center">
             <p className="text-xs md:text-[10px] mt-5">
               By signing up you agree with <br />
-              our <span className="text-blue-500">terms and conditions</span>
+              our{' '}
+              <a href="" target="_blank" className="text-blue-500">
+                terms and conditions
+              </a>
             </p>
           </div>
         </div>
