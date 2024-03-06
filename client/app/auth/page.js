@@ -15,12 +15,24 @@ const Auth = () => {
           </p>
         </div>
         <div className="flex flex-col items-center pt-8">
-          <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded relative">
-            <Image src="/images/google.png" alt="Google" width={24} height={20} className="absolute left-3 top-1/2 transform -translate-y-1/2" />
+          <button className="bg-red-500 hover:bg-blue-800 text-white font-bold py-2 px-10 rounded relative">
+            <Image
+              src="/images/google.png"
+              alt="Google"
+              width={24}
+              height={20}
+              className="absolute left-3 top-1/2 transform -translate-y-1/2"
+            />
             Sign Up With Google
           </button>
-          <button className="bg-slate-300 hover:bg-blue-700 text-black font-bold py-2 px-10 rounded mt-2 relative">
-            <Image src="/images/facebook.png" alt="Facebook" width={30} height={20} className="absolute left-2 top-1/2 transform -translate-y-1/2" />
+          <button className="bg-slate-300 hover:bg-white text-black font-bold py-2 px-10 rounded mt-2 relative">
+            <Image
+              src="/images/facebook.png"
+              alt="Facebook"
+              width={30}
+              height={20}
+              className="absolute left-2 top-1/2 transform -translate-y-1/2"
+            />
             Sign Up with Facebook
           </button>
         </div>
@@ -50,11 +62,11 @@ const Auth = () => {
               className="border-2 border-blue-900 rounded-md py-2 px-4 mt-1 w-full md:w-72 focus:outline-none"
               required
             />
-            <div className="absolute bottom-16 left-4 z-20 w-full text-center mr-12">
-              <button className="bg-blue-950 hover:bg-blue-500 text-white font-bold py-2.5 px-12 rounded w-full md:w-72">
+            {/* <div className="absolute bottom-16 left-4 z-20 w-full text-center mr-12"> */}
+              <button className="bg-blue-950 hover:bg-blue-500 text-white left-4 z-20 bottom-16 font-bold py-2 px-4 mt-5 md:py-2.5 md:px-12 rounded w-full md:w-72 ">
                 Sign Up
               </button>
-            </div>
+            {/* </div> */}
           </form>
           <div className="absolute bottom-4 left-4 z-20 w-full text-center">
             <p className="text-xs md:text-[10px] mt-5">
