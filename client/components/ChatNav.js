@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import avater from '@/public/images/Rectangle.png'
 import infoIcon from '@/public/images/icon-info.png'
 
 

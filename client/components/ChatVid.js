@@ -2,13 +2,7 @@ import ChatNav from './ChatNav';
 import Message from './Message';
 import Messagesfooter from './Messagesfooter';
 import avater from '@/public/images/Rectangle.png';
-import imgSend from '@/public/images/Image.png';
 import vidSend from '@/public/images/Video.png'
-import infoIcon from '@/public/images/icon-info.png';
-import ellipse from '@/public/images/Ellipse 16.png';
-import emoji from '@/public/images/icon-meh.png';
-import sendIcon from '@/public/images/icon-send.png';
-import plusIcon from '@/public/images/icon-plus.png';
 import Image from 'next/image';
 
 const ChatVid = () => {

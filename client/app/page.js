@@ -3,7 +3,7 @@
 import ChatListLightmode from '@/components/ChatListLightMode';
 import ChatListDarkmode from '@/components/ChatListDarkmode';
 import P2ChatSearchDarkmode from '@/components/P2ChatSearchDarkmode';
-import P2ChatSearchLightmode from '@/components/P2ChatSearchDarkmode';
+// import P2ChatSearchLightmode from '@/components/P2ChatSearchDarkmode';
 import ChatSearchDarkmode from '@/components/ChatSearchDarkmode';
 import ChatSearchLightmode from '@/components/ChatSearchLightmode';
 import AIChatDarkmode from '@/components/AIChatDarkmode';
