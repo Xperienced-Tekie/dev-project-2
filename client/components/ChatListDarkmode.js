@@ -1,8 +1,8 @@
-import navIcon from '@/public/asset/Nav.png';
-import searchIcon from '@/public/asset/Shape.png';
-import searchImg from '@/public/asset/images.png';
-import avatarMan2 from '@/public/asset/images (1).png';
-import avatarWoman2 from '@/public/asset/images (2).png';
+import navIcon from '@/public/images/Nav.png';
+import searchIcon from '@/public/images/Shape.png';
+import searchImg from '@/public/images/images.png';
+import avatarMan2 from '@/public/images/images (1).png';
+import avatarWoman2 from '@/public/images/images (2).png';
 import Image from 'next/image';
 import ChatListMsg from "./ChatListMessage"
 import ChatDarkmode from './ChatDarkmode';

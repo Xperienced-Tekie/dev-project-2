@@ -1,4 +1,4 @@
-import searchIcon from '@/public/asset/Shape.png';
+import searchIcon from '@/public/images/Shape.png';
 import Image from 'next/image';
 import { useState } from 'react';
 

@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import avater from '@/public/asset/Rectangle.png'
-import infoIcon from '@/public/asset/icon-info.png'
+import avater from '@/public/images/Rectangle.png'
+import infoIcon from '@/public/images/icon-info.png'
 
 
 const ChatNav = (props) => {
