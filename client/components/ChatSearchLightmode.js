@@ -1,6 +1,6 @@
 import P2ChatSearchDarkmode from './P2ChatSearchDarkmode';
 import ChatSearchBar from './ChatSearchBar';
-import searchImg from '@/public/images/images.png';
+import searchImg from '@/public/images/Images.png';
 import navIcon from '@/public/images/Nav.png';
 import Image from 'next/image';
 

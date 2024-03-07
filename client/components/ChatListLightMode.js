@@ -1,6 +1,6 @@
 import navIcon from '@/public/images/Nav.png';
 import searchIcon from '@/public/images/Shape.png';
-import searchImg from '@/public/images/Image.png';
+import searchImg from '@/public/images/Images.png';
 import avatarMan2 from '@/public/images/Images (1).png';
 import avatarWoman2 from '@/public/images/Images (2).png';
 import Image from 'next/image';
